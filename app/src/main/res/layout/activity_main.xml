@@ -7,6 +7,4 @@
     android:background="@drawable/poke"
     tools:context=".MainActivity">
 
-
-
 </android.support.constraint.ConstraintLayout>

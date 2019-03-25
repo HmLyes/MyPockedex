@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyPockedex</string>
+    <string name="open_pokedex">Open Pokedex</string>
 </resources>

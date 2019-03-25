@@ -5,6 +5,8 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.mypockedex.view.PokemonApiList;
+
 public class MainActivity extends AppCompatActivity {
     private static int timer = 2500;
 
@@ -16,10 +18,9 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent welcome = new Intent(MainActivity.this, ActivityMenu.class);
+                Intent welcome = new Intent(MainActivity.this, MenuActivity.class);
                 startActivity(welcome);
                 overridePendingTransition(R.anim.first, R.anim.end);
-                finish();
             }
         }, timer);
     }
